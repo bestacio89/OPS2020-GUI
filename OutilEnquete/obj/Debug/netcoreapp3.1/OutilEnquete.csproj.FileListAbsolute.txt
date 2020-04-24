@@ -1,0 +1,291 @@
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\OutilEnquete.exe
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.csprojAssemblyReference.cache
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\staticwebassets\OutilEnquete.StaticWebAssets.Manifest.cache
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\staticwebassets\OutilEnquete.StaticWebAssets.xml
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.AssemblyInfoInputs.cache
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.AssemblyInfo.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.RazorTargetAssemblyInfo.cache
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.RazorAssemblyInfo.cache
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.RazorAssemblyInfo.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.csproj.CopyComplete
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.csproj.CoreCompileInputs.cache
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Views\Web.config
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\AWSSDK.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.TagHelpers.input.cache
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.TagHelpers.output.cache
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.RazorCoreGenerate.cache
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginConfirmation.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginFailure.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\SendCode.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\VerifyCode.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\_ExternalLoginsListPartial.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Manage\AddPhoneNumber.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Manage\ChangePassword.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Manage\Index.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Manage\ManageLogins.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Manage\SetPassword.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Manage\VerifyPhoneNumber.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Reports\Details.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Reports\DisplayTemplates\Responses.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Reports\Index.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Responses\Create.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Responses\Details.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Responses\Index.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Lockout.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_FlashPartial.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MenuPartial.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Surveys\Create.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Surveys\DisplayTemplates\IsActive.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Surveys\Edit.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Surveys\EditorTemplates\DateTime.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Surveys\EditorTemplates\Survey.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Surveys\Index.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.RazorTargetAssemblyInfo.cs
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\AjaxControlToolkit.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\OPS.BOL.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\OPS.DAL.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\OPS.BOL.pdb
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\OPS.DAL.pdb
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Owin.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Owin.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Owin.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.Interop.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Antlr3.Runtime.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.Optimization.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\WebGrease.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.Properties.Resources.resources
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.csproj.GenerateResource.cache
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Mail.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Ninject.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Ninject.Web.Common.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Ninject.Web.Mvc.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.Providers.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.csprojAssemblyReference.cache
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.Properties.Resources.resources
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.csproj.GenerateResource.cache
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.csproj.CoreCompileInputs.cache
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.RazorAssemblyInfo.cache
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.RazorAssemblyInfo.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.AssemblyInfoInputs.cache
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.AssemblyInfo.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Views\Web.config
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\OutilEnquete.exe
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\AjaxControlToolkit.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Antlr3.Runtime.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\AWSSDK.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Mail.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.Providers.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.Optimization.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Owin.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Owin.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.Interop.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Ninject.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Ninject.Web.Mvc.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Ninject.Web.Common.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Owin.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\WebGrease.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\OPS.BOL.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\OPS.DAL.dll
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\OPS.BOL.pdb
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\OPS.DAL.pdb
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.TagHelpers.input.cache
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.TagHelpers.output.cache
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.RazorCoreGenerate.cache
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginConfirmation.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginFailure.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\SendCode.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\VerifyCode.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Account\_ExternalLoginsListPartial.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Manage\AddPhoneNumber.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Manage\ChangePassword.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Manage\Index.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Manage\ManageLogins.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Manage\SetPassword.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Manage\VerifyPhoneNumber.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Reports\Details.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Reports\DisplayTemplates\Responses.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Reports\Index.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Responses\Create.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Responses\Details.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Responses\Index.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Lockout.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_FlashPartial.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MenuPartial.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Surveys\Create.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Surveys\DisplayTemplates\IsActive.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Surveys\Edit.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Surveys\EditorTemplates\DateTime.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Surveys\EditorTemplates\Survey.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\Surveys\Index.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.RazorTargetAssemblyInfo.cache
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.RazorTargetAssemblyInfo.cs
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\obj\Debug\netcoreapp3.1\OutilEnquete.csproj.CopyComplete
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OutilEnquete\bin\Debug\netcoreapp3.1\Polly.dll

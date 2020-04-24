@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.DAL\\OPS.DAL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.BOL\\OPS.BOL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.BOL\\OPS.BOL.csproj",
+        "projectName": "OPS.BOL",
+        "projectPath": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.BOL\\OPS.BOL.csproj",
+        "packagesPath": "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.BOL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bernardo Estacio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "B:\\Program Files (x86)\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.DAL\\OPS.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.DAL\\OPS.DAL.csproj",
+        "projectName": "OPS.DAL",
+        "projectPath": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.DAL\\OPS.DAL.csproj",
+        "packagesPath": "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bernardo Estacio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.BOL\\OPS.BOL.csproj": {
+                "projectPath": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.BOL\\OPS.BOL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AjaxControlToolkit": {
+              "target": "Package",
+              "version": "[19.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "B:\\Program Files (x86)\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
