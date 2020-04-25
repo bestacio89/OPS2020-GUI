@@ -3,13 +3,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin;
 using OPS.BOL;
 using Microsoft.AspNetCore.Authorization;
 using OutilEnquete.Models;
+using Microsoft.AspNet.Identity;
 
 namespace OutilEnquete.Controllers
 {
@@ -72,7 +72,7 @@ namespace OutilEnquete.Controllers
                 HasPassword = HasPassword(),
                 PhoneNumber = await UserManager.GetPhoneNumberAsync(userId),
                 TwoFactor = await UserManager.GetTwoFactorEnabledAsync(userId),
-                Logins = await UserManager.GetLoginsAsync(userId),
+                Logins = await UserManager.GetLoginsAsync(v: userId),
                 BrowserRemembered = await AuthenticationManager.TwoFactorBrowserRememberedAsync(userId)
             };
             return View(model);

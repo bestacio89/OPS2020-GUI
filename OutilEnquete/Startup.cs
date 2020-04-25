@@ -32,6 +32,12 @@ namespace OutilEnquete
                 .AddDefaultTokenProviders();
 
             services.AddMvcCore();
+            services.AddAuthentication("CookieAuthentication")
+                 .AddCookie("CookieAuthentication", config =>
+                 {
+                     config.Cookie.Name = "UserLoginCookie";
+                     config.LoginPath = "/Login/UserLogin";
+                 });
 
 
 
@@ -61,21 +67,18 @@ namespace OutilEnquete
 
 
             app.UseStaticFiles();
+            app.UseOwin();
 
             app.UseAuthentication();
-            app.UseCookieAuthentication(new CookieAuthenticationOptions
-            {
-                AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
-                LoginPath = new PathString("/Account/Login"),
-                Provider = new CookieAuthenticationProvider
-                {
-                    // Enables the application to validate the security stamp when the user logs in.
-                    // This is a security feature which is used when you change a password or add an external login to your account.  
-                    OnValidateIdentity = SecurityStampValidator.OnValidateIdentity<ApplicationUserManager, UserData>(
-                       validateInterval: TimeSpan.FromDays(30),
-                       regenerateIdentity: (manager, user) => user.GenerateUserIdentityAsync(manager))
-                }
-            });
+            app.UseAuthentication();
+            //app.UseEndpoints(routes =>
+            //{
+            //    Microsoft.AspNetCore.Routing.IRouteBuilder routeBuilder = routes.MapRoute(
+            //        name: "default",
+            //        template: "{controller=Home}/{action=Index}/{id?}");
+            //});
+
+
             // To configure external authentication please see http://go.microsoft.com/fwlink/?LinkID=532715
 
             //app.UseMvc(routes =>

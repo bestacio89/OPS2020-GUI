@@ -65,5 +65,35 @@ namespace OutilEnquete
             }
             return manager;
         }
+
+        internal Task<bool> GetTwoFactorEnabledAsync(string userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal Task<string> GetPhoneNumberAsync(string userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal Task ChangePasswordAsync(string v, string oldPassword, string newPassword)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal Task AddPasswordAsync(string v, string newPassword)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal Task GetLoginsAsync(string v)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal Task GenerateChangePhoneNumberTokenAsync(string v, string number)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

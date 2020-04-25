@@ -21,7 +21,7 @@ namespace OutilEnquete.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            var surveys = _db.Surveys.ToList();
+            var surveys = _db.Questionnaires.ToList();
             return View(surveys);
         }
 
@@ -32,7 +32,7 @@ namespace OutilEnquete.Controllers
             startDate = startDate ?? new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
             endDate = endDate ?? DateTime.Now;
 
-            var survey = _db.Surveys.Single(s => s.Id == id);
+            var survey = _db.Questionnnaires.Single(s => s.Id == id);
 
             _db.Questions
                .Where(q => q.SurveyId == id)
@@ -43,8 +43,8 @@ namespace OutilEnquete.Controllers
                        q.Body,
                        q.Type,
                        Answers = _db.Answers.Where(a => a.QuestionId == q.Id &&
-                                                        a.Response.CreatedOn >= startDate.Value &&
-                                                        a.Response.CreatedOn <= endDate.Value)
+                                                        a.Reponse.CreatedOn >= startDate.Value &&
+                                                        a.Reponse.CreatedOn <= endDate.Value)
                    })
                .ToList()
                .ForEach(r => questions.Add(new QuestionViewModel

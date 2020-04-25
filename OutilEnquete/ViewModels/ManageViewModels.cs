@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
@@ -12,6 +13,11 @@ namespace OutilEnquete.Models
         public string PhoneNumber { get; set; }
         public bool TwoFactor { get; set; }
         public bool BrowserRemembered { get; set; }
+
+        public static implicit operator IndexViewModel(IndexViewModel v)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public class ManageLoginsViewModel

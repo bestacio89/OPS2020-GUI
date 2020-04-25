@@ -21,7 +21,7 @@ namespace OutilEnquete.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            var surveys = _db.Surveys.ToList();
+            var surveys = _db.Questionnaires.ToList();
             return View(surveys);
         }
 
@@ -44,7 +44,7 @@ namespace OutilEnquete.Controllers
             if (ModelState.IsValid)
             {
                 survey.Questions.ForEach(q => q.CreatedOn = q.ModifiedOn = DateTime.Now);
-                _db.Surveys.Add(survey);
+                _db.Questionnaires.Add(survey);
                 _db.SaveChanges();
                 TempData["success"] = "The survey was successfully created!";
                 return RedirectToAction("Edit", new {id = survey.Id});
@@ -59,7 +59,7 @@ namespace OutilEnquete.Controllers
         [HttpGet]
         public ActionResult Edit(int id)
         {
-            var survey = _db.Surveys.Include("Questions").Single(x => x.Id == id);
+            var survey = _db.Questionnaires.Include("Questions").Single(x => x.Id == id);
             survey.Questions = survey.Questions.OrderBy(q => q.Priority).ToList();
             return View(survey);
         }
@@ -70,7 +70,7 @@ namespace OutilEnquete.Controllers
         {
             foreach (var question in model.Questions)
             {
-                question.SurveyId = model.Id;
+                question.IdQuesttionnaire = model.Id;
 
                 if (question.Id == 0)
                 {
