@@ -298,6 +298,18 @@
             "System.Security.Claims": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "akavache.core": {
+              "target": "Package",
+              "version": "[6.10.11, )"
             }
           },
           "imports": [

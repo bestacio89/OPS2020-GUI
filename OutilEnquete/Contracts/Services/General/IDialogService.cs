@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace BethanysPieShop.Mobile.Core.Contracts.Services.General
+namespace OutilEnquete.Contracts.Services.General
 {
     public interface IDialogService
     {

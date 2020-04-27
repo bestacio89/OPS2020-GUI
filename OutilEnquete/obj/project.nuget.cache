@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "KcqaaVGkwJzDmIHM1FEIqhlbpVKC03BRhF/ky1mXZcQAHaY7dkvTWxJamzWr0GM0+2oM1PaOucFwrz4KwHA1Ew==",
+  "dgSpecHash": "P6CIw8X9UJqh7G7Jzz2nsLW1OOJ2au9mh/6SuWhYeJwa5Pwml1CSq4lTiqKq+7Abk/icCXmQhXeiryQTY0rzRg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OutilEnquete\\OutilEnquete.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\ajaxcontroltoolkit\\19.1.0\\ajaxcontroltoolkit.19.1.0.nupkg.sha512",
+    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\akavache.core\\6.10.11\\akavache.core.6.10.11.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\antlr\\3.4.1.9004\\antlr.3.4.1.9004.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\awssdk\\2.3.55.2\\awssdk.2.3.55.2.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
@@ -122,8 +123,8 @@
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
-    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\ninject\\3.3.4\\ninject.3.3.4.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\ninject.mvc5\\3.3.0\\ninject.mvc5.3.3.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\ninject.web.common\\3.3.2\\ninject.web.common.3.3.2.nupkg.sha512",
@@ -164,6 +165,7 @@
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\serilog.sinks.rollingfile\\3.3.0\\serilog.sinks.rollingfile.3.3.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\serilog.sinks.trace\\2.1.0\\serilog.sinks.trace.2.1.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\serilogtracelistener\\3.2.0\\serilogtracelistener.3.2.0.nupkg.sha512",
+    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\splat\\9.4.1\\splat.9.4.1.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
@@ -177,6 +179,7 @@
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.configuration.configurationmanager\\4.6.0\\system.configuration.configurationmanager.4.6.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
+    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.diagnostics.contracts\\4.3.0\\system.diagnostics.contracts.4.3.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.diagnostics.fileversioninfo\\4.3.0\\system.diagnostics.fileversioninfo.4.3.0.nupkg.sha512",
@@ -207,6 +210,7 @@
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.net.webheadercollection\\4.0.1\\system.net.webheadercollection.4.0.1.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
+    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.reactive\\4.4.1\\system.reactive.4.4.1.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
@@ -236,7 +240,7 @@
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.security.cryptography.openssl\\4.3.0\\system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.security.cryptography.pkcs\\4.5.0\\system.security.cryptography.pkcs.4.5.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.6.0\\system.security.cryptography.protecteddata.4.6.0.nupkg.sha512",
+    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.2\\system.security.cryptography.x509certificates.4.3.2.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.security.cryptography.xml\\4.5.0\\system.security.cryptography.xml.4.5.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.security.permissions\\4.6.0\\system.security.permissions.4.6.0.nupkg.sha512",
@@ -264,7 +268,9 @@
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\webgrease\\1.5.2\\webgrease.1.5.2.nupkg.sha512"
+    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\webgrease\\1.5.2\\webgrease.1.5.2.nupkg.sha512",
+    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\xam.plugin.connectivity\\3.2.0\\xam.plugin.connectivity.3.2.0.nupkg.sha512",
+    "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\xam.plugins.settings\\3.1.1\\xam.plugins.settings.3.1.1.nupkg.sha512"
   ],
   "logs": [
     {
