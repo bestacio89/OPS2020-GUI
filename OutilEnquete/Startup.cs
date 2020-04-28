@@ -14,7 +14,10 @@ using Microsoft.Extensions.Logging;
 using OutilEnquete.Models;
 using OPS.DAL;
 using Microsoft.Owin.Security.Cookies;
+using Microsoft.EntityFrameworkCore;
 
+using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Authorization;
 
 namespace OutilEnquete
 {
@@ -27,11 +30,31 @@ namespace OutilEnquete
 
             // Add framework services
             // Configure the db context, user manager and signin manager to use a single instance per request
-          
+
+            services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseSqlServer(
+            Configuration.GetConnectionString("OPSDB")));
+
+            services.AddDefaultIdentity<IdentityUser>(
+                options => options.SignIn.RequireConfirmedAccount = true)
+                .AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>();
+
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddDefaultTokenProviders();
 
-            services.AddMvcCore();
+            services.AddControllers(config =>
+            {
+           
+                var policy = new AuthorizationPolicyBuilder()
+                                 .RequireAuthenticatedUser()
+                                 .Build();
+                config.Filters.Add(new AuthorizeFilter(policy));
+            });
+
+            services.AddMvc();
+
+            
             services.AddAuthentication("CookieAuthentication")
                  .AddCookie("CookieAuthentication", config =>
                  {
@@ -48,45 +71,30 @@ namespace OutilEnquete
 
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        [Obsolete]
+     
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
-        {
-            //loggerFactory.AddConsole(Configuration.GetSection("Logging"));
-            //ILoggingBuilder loggingBuilder = loggerFactory.AddDebug();
-
-            if (env.IsDevelopment())
+       
             {
+                if (env.IsDevelopment())
+                {
+                    app.UseDeveloperExceptionPage();
+                }
+                else
+                {
+                    app.UseHsts();
+                }
 
-                app.UseDeveloperExceptionPage();
+                app.UseHttpsRedirection();
+                app.UseRouting();
+                app.UseAuthorization();
+                app.UseCookiePolicy();
 
-            }
-            else
+            app.UseEndpoints(routes =>
             {
-                app.UseExceptionHandler("/Home/Error");
+                routes.MapRazorPages();
+                routes.MapFallbackToPage("_Host");
+            });
             }
-
-
-            app.UseStaticFiles();
-            app.UseOwin();
-
-            app.UseAuthentication();
-            app.UseAuthentication();
-            //app.UseEndpoints(routes =>
-            //{
-            //    Microsoft.AspNetCore.Routing.IRouteBuilder routeBuilder = routes.MapRoute(
-            //        name: "default",
-            //        template: "{controller=Home}/{action=Index}/{id?}");
-            //});
-
-
-            // To configure external authentication please see http://go.microsoft.com/fwlink/?LinkID=532715
-
-            //app.UseMvc(routes =>
-            //{
-            //    routes.MapRoute(
-            //        name: "default",
-            //        template: "{controller=Home}/{action=Index}/{id?}");
-            //});
-        }
+        
     }
 }
