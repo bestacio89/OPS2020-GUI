@@ -11,7 +11,7 @@ using Microsoft.Owin.Security;
 using OutilEnquete;
 using OutilEnquete.ViewModels;
 
-namespace SurveyTool.Controllers
+namespace OutilEnquete.Controllers
 {
     [Authorize]
     public class AccountController : Controller
