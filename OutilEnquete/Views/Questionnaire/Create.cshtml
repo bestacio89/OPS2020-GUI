@@ -1,0 +1,15 @@
+﻿@model OutilEnquete.ViewModels.QuestionnaireViewModel
+
+@{
+    ViewBag.Title = "Nouveau Questionnaire";
+}
+
+    <script type="text/javascript">
+        $(function() {
+            ko.validation.init({ insertMessages: false });
+            ko.applyBindings(new QuesitonnaireModel());
+        });
+    </script>
+}
+
+@Html.EditorForModel(new {title = "Nouveau Questionnaire", url = Url.Action("Créer")})

@@ -1,28 +1,25 @@
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Web.Providers.Entities;
-using Microsoft.AspNet.Identity;
+
+using EmailApiOPS;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using OutilEnquete.Models;
 using OPS.DAL;
-using Microsoft.Owin.Security.Cookies;
-using Microsoft.EntityFrameworkCore;
-
-using Microsoft.AspNetCore.Mvc.Authorization;
-using Microsoft.AspNetCore.Authorization;
+using OutilEnquete.ViewModels;
+using System;
 
 namespace OutilEnquete
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+        public Startup(IConfiguration configuration)
+        { Configuration = configuration; }
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
@@ -31,21 +28,27 @@ namespace OutilEnquete
             // Add framework services
             // Configure the db context, user manager and signin manager to use a single instance per request
 
-            services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(
-            Configuration.GetConnectionString("OPSDB")));
+            services.AddDistributedMemoryCache();
 
-            services.AddDefaultIdentity<IdentityUser>(
-                options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromSeconds(300);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+  
+
+            string CoString = Configuration["ConnectionString:OPSDB"];
+            services.AddDbContext<OPSCtx>(options =>
+                options.UseSqlServer(CoString));
+
+            services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddRoles<IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>();
-
-            services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddDefaultTokenProviders();
 
             services.AddControllers(config =>
             {
-           
+
                 var policy = new AuthorizationPolicyBuilder()
                                  .RequireAuthenticatedUser()
                                  .Build();
@@ -54,7 +57,9 @@ namespace OutilEnquete
 
             services.AddMvc();
 
-            
+            services.AddRazorPages();
+
+            services.AddControllersWithViews();
             services.AddAuthentication("CookieAuthentication")
                  .AddCookie("CookieAuthentication", config =>
                  {
@@ -64,37 +69,43 @@ namespace OutilEnquete
 
 
 
-            // Add application services.
-            //  services.AddTransient<IEmailSender, AuthMessageSender>();
-            //services.AddTransient<ISmsSender, AuthMessageSender>();
+
+            //Add application services
+            services.AddTransient<IEmailSender, EmailSender>();
+            services.Configure<AuthMessageSenderOptions>(Configuration);
+            // services.AddTransient<ISMSSender, AuthMessageSender>();
         }
 
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-     
+
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
-       
-            {
-                if (env.IsDevelopment())
-                {
-                    app.UseDeveloperExceptionPage();
-                }
-                else
-                {
-                    app.UseHsts();
-                }
 
-                app.UseHttpsRedirection();
-                app.UseRouting();
-                app.UseAuthorization();
-                app.UseCookiePolicy();
-
-            app.UseEndpoints(routes =>
+        {
+            if (env.IsDevelopment())
             {
-                routes.MapRazorPages();
-                routes.MapFallbackToPage("_Host");
-            });
+                app.UseDeveloperExceptionPage();
             }
-        
+            else
+            {
+                app.UseHsts();
+            }
+
+            app.UseHttpsRedirection();
+            app.UseRouting();
+            app.UseAuthorization();
+            app.UseCookiePolicy();
+            app.UseOwin();
+            app.UseAuthentication();
+            app.UseEndpoints(routes =>
+                {
+                    routes.MapRazorPages();
+                    routes.MapFallbackToPage("_Host");
+                });
+            app.UseStaticFiles(); // For the wwwroot folder
+
+            //Récupérationde la connectionString de la base Identity
+
+        }
     }
 }

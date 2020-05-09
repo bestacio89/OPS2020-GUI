@@ -1,59 +1,98 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
+using Newtonsoft.Json;
 using OutilEnquete.Models;
 
-namespace OutilEnquete.Models
+namespace OutilEnquete.ViewModels
 {
     public class ReportViewModel
     {
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public Questionnaire Survey { get; set; }
+        public QuestionnaireViewModel Survey { get; set; }
         public List<QuestionViewModel> Responses { get; set; }
     }
-
+    [DataContract]
+    [JsonObject]
     public class QuestionViewModel
     {
-        public string Title { get; set; }
-        public string Body { get; set; }
-        public string Type { get; set; }
-        public List<Answer> Answers { get; set; }
+        [JsonProperty(PropertyName = "IdQuestion")]
+        public int IdQuestion { get; set; }
 
-        public int Score
-        {
-           get
-           {
-               if (Type == "Yes/No")
-                   return Answers.Sum(x => x.Value == "Yes" ? 1 : 0);
+        [JsonProperty(PropertyName = "Libelle")]
+        public string Libelle { get; set; }
 
-               if (Type == "Number")
-               {
-                   return Answers.Sum(x =>
-                       {
-                           int num;
-                           Int32.TryParse(x.Value, out num);
-                           return num;
-                       });
-               }
+        [JsonProperty(PropertyName = "Typechamp")]
+        public string TypeChamp { get; set; }
 
-               return 0;
-           }
-        }
+        [JsonProperty(PropertyName = "TypeResponse")]
+        public string TypeReponse { get; set; }
 
-        public int Total
-        {
-            get { return Answers.Count(); }
-        }
+        [JsonProperty(PropertyName = "EstaReponseMultiple")]
+        public string EstAReponseMultiple { get; set; }
 
-        public double Percentage
-        {
-            get { return (double)Score / (double)Total; }
-        }
+        [JsonProperty(PropertyName = "EstRequis")]
+        public string EstRequis { get; set; }
 
-        public string PercentageString
-        {
-            get { return Answers.Any() ? String.Concat((Int32) (Percentage*100), "%") : "0%"; }
-        }
+        [JsonProperty(PropertyName = "EstModifiable")]
+        public int EstModifiable { get; set; }
+
+        [JsonProperty(PropertyName = "EstExtensible")]
+        public bool EstExtensible { get; set; }
+
+        [JsonProperty(PropertyName = "Graphique")]
+        public bool Graphique { get; set; }
+
+        [JsonProperty(PropertyName = "GraphiqueModifiable")]
+        public bool GraphiqueModifiable { get; set; }
+
+        [JsonProperty(PropertyName = "TypeGraphique")]
+        public string TypeGraphique { get; set; }
+
+        [JsonProperty(PropertyName = "ValeursPossible")]
+        public List<string> ValeursPossible { get; set; }
+
+        public DateTime DateCreation { get; set; }
+
+        public DateTime DataModif { get; set; }
+
+        public List<Reponse> Reponses { get; set; }
+        //public int Score
+        //{
+        //   get
+        //   {
+        //       if (TypeReponse == "Yes/No")
+        //           return Reponse.GetQues (x => x.Value == "Yes" ? 1 : 0);
+
+        //       if (TypeReponse == "Valeur")
+        //       {
+        //           return Answers.Sum(x =>
+        //               {
+        //                   int num;
+        //                   Int32.TryParse(x.Value, out num);
+        //                   return num;
+        //               });
+        //       }
+
+        //       return 0;
+        //   }
+        //}
+
+        //public int Total
+        //{
+        //    get { return Answers.Count(); }
+        //}
+
+        //public double Percentage
+        //{
+        //    get { return (double)Score / (double)Total; }
+        //}
+
+        //public string PercentageString
+        //{
+        //    get { return Answers.Any() ? String.Concat((Int32) (Percentage*100), "%") : "0%"; }
+        //}
     }
 }

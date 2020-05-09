@@ -28,8 +28,9 @@ C:\Users\Bernardo Estacio\Desktop\survey-tool-master\OPS.BOL\obj\Debug\netcoreap
 C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OPS.BOL\bin\Debug\netcoreapp3.1\OPS.BOL.deps.json
 C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OPS.BOL\bin\Debug\netcoreapp3.1\OPS.BOL.dll
 C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OPS.BOL\bin\Debug\netcoreapp3.1\OPS.BOL.pdb
-C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OPS.BOL\obj\Debug\netcoreapp3.1\OPS.BOL.csproj.CoreCompileInputs.cache
 C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OPS.BOL\obj\Debug\netcoreapp3.1\OPS.BOL.AssemblyInfoInputs.cache
 C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OPS.BOL\obj\Debug\netcoreapp3.1\OPS.BOL.AssemblyInfo.cs
 C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OPS.BOL\obj\Debug\netcoreapp3.1\OPS.BOL.dll
 C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OPS.BOL\obj\Debug\netcoreapp3.1\OPS.BOL.pdb
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OPS.BOL\obj\Debug\netcoreapp3.1\OPS.BOL.csproj.CoreCompileInputs.cache
+C:\Users\Bernardo Estacio\Desktop\OPS2020 GUI\OPS.BOL\obj\Debug\netcoreapp3.1\OPS.BOL.csprojAssemblyReference.cache

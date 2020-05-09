@@ -1,14 +1,11 @@
-﻿
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using OPS.DAL;
-
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using OutilEnquete.ViewModels;
 
 namespace OutilEnquete
 {
@@ -32,7 +29,7 @@ namespace OutilEnquete
             // Configure validation logic for passwords
             manager.PasswordValidator = new PasswordValidator
             {
-                RequiredLength = 5,
+                RequiredLength = 12,
                 RequireNonLetterOrDigit = false,
                 RequireDigit = false,
                 RequireLowercase = false,
@@ -66,6 +63,11 @@ namespace OutilEnquete
             return manager;
         }
 
+        public static explicit operator ApplicationUserManager(Microsoft.AspNet.Identity.UserManager<UserData, string> v)
+        {
+            throw new NotImplementedException();
+        }
+
         internal Task<bool> GetTwoFactorEnabledAsync(string userId)
         {
             throw new NotImplementedException();
@@ -92,6 +94,16 @@ namespace OutilEnquete
         }
 
         internal Task GenerateChangePhoneNumberTokenAsync(string v, string number)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal Task CreateAsync(ApplicationUser user, string password)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal Task ConfirmEmailAsync(string userId, string code)
         {
             throw new NotImplementedException();
         }

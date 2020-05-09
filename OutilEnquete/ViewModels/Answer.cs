@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OutilEnquete.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -28,10 +29,10 @@ namespace OutilEnquete.Models
            {
                if (Question != null)
                {
-                   if (Question.Type == "Oui/No")
+                   if (Question.TypeReponse == "Oui/No")
                        return Value == "Oui" ? 1 : 0;
 
-                   if (Question.Type == "Number")
+                   if (Question.TypeReponse == "Number")
                    {
                        int num;
                        Int32.TryParse(Value, out num);
@@ -42,5 +43,7 @@ namespace OutilEnquete.Models
                return 0;
            }
         }
+
+        public int SurveyId { get; internal set; }
     }
 }

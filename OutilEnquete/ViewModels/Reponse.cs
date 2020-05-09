@@ -2,43 +2,46 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using OPS.BOL;
 
-namespace OutilEnquete.Models
+namespace OutilEnquete.ViewModels
 {
-    public class Answer
+    public class Reponse
     {
+        public readonly int Score;
+
         [Key]
         public int Id { get; set; }
 
-        public int SurveyId { get; set; }
+        public int IdQuestionnaire { get; set; }
 
-        public Questionnaire Survey { get; set; }
+        public QuestionnaireViewModel Questionnaire2 { get; set; }
 
         public string CreatedBy { get; set; }
 
         public DateTime CreatedOn { get; set; }
 
-        public ICollection<Answer> Answers { get; set; }
+        public ICollection<WReponse> Answers { get; set; }
 
         public int GetQuestionCount()
         {
             return Answers == null ? 0 : Answers.Count();
         }
 
-        public int GetAnswerCount()
-        {
-            return Answers == null ? 0 : Answers.Sum(x => x.Score);
-        }
-
-        public double CalculateScore()
+ 
+        
+        public bool  FinQuestionnaire()
         {
             var questions = GetQuestionCount();
-            var answers = GetAnswerCount();
 
-            if (questions == 0 || answers == 0)
-                return 0.0;
 
-            return (double)answers / (double)questions;
+            if (questions < Answers.Count())
+
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 }

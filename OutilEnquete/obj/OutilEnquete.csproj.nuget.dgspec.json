@@ -4,6 +4,79 @@
     "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OutilEnquete\\OutilEnquete.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\EmailApiOPS\\EmailApiOPS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\EmailApiOPS\\EmailApiOPS.csproj",
+        "projectName": "EmailApiOPS",
+        "projectPath": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\EmailApiOPS\\EmailApiOPS.csproj",
+        "packagesPath": "C:\\Users\\Bernardo Estacio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\EmailApiOPS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bernardo Estacio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "B:\\Program Files (x86)\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.BOL\\OPS.BOL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -41,6 +114,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -173,6 +256,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\EmailApiOPS\\EmailApiOPS.csproj": {
+                "projectPath": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\EmailApiOPS\\EmailApiOPS.csproj"
+              },
               "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.BOL\\OPS.BOL.csproj": {
                 "projectPath": "C:\\Users\\Bernardo Estacio\\Desktop\\OPS2020 GUI\\OPS.BOL\\OPS.BOL.csproj"
               },
@@ -207,9 +293,21 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Json.Net": {
+              "target": "Package",
+              "version": "[1.0.22, )"
+            },
+            "MSharp.Framework": {
+              "target": "Package",
+              "version": "[4.0.110, )"
+            },
             "Mail.dll": {
               "target": "Package",
               "version": "[3.0.20106.1313, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.6.0, )"
             },
             "Microsoft.AspNet.Identity.Owin": {
               "target": "Package",
@@ -263,6 +361,10 @@
               "target": "Package",
               "version": "[3.1.3, )"
             },
+            "Microsoft.Owin.Host.SystemWeb": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Microsoft.Owin.Security": {
               "target": "Package",
               "version": "[4.1.0, )"
@@ -270,6 +372,10 @@
             "Microsoft.Owin.Security.Interop": {
               "target": "Package",
               "version": "[2.1.2, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.2, )"
             },
             "Ninject": {
               "target": "Package",
@@ -287,6 +393,10 @@
               "target": "Package",
               "version": "[7.2.0, )"
             },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.14.1, )"
+            },
             "System.Globalization": {
               "target": "Package",
               "version": "[4.3.0, )"
@@ -303,13 +413,13 @@
               "target": "Package",
               "version": "[4.3.0, )"
             },
-            "Xam.Plugin.Connectivity": {
+            "System.Web.Http.Common": {
               "target": "Package",
-              "version": "[3.2.0, )"
+              "version": "[4.0.20126.16343, )"
             },
-            "Xam.Plugins.Settings": {
+            "System.Web.Mvc.Extensions": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[1.1.1.2, )"
             },
             "akavache.core": {
               "target": "Package",

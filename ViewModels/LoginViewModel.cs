@@ -2,7 +2,6 @@
 using OutilEnquete.Contracts.Services.Data;
 using OutilEnquete.Contracts.Services.General;
 using OutilEnquete.ViewModels.Base;
-using Xamarin.Forms;
 
 namespace OutilEnquete.ViewModels
 {

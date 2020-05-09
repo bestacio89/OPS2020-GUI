@@ -1,16 +1,17 @@
-﻿using System.Linq;
+﻿using System;
+using System.Globalization;
+using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using System.Web;
+using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNet.Identity.Owin;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Owin.Security;
-using Microsoft.Owin;
-using OutilEnquete.Models;
-using Microsoft.AspNetCore.Authentication;
-using OPS.BOL;
-namespace OutilEnquete.Controllers
+using OutilEnquete;
+using OutilEnquete.ViewModels;
+
+namespace SurveyTool.Controllers
 {
     [Authorize]
     public class AccountController : Controller
@@ -32,7 +33,7 @@ namespace OutilEnquete.Controllers
         {
             get
             {
-                return _signInManager ?? HttpContextExtensions.GetOwinContext().Get<ApplicationSignInManager>();
+                return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
             private set
             {

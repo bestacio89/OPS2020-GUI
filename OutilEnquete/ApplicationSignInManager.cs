@@ -7,7 +7,9 @@ using System.Linq;
 using OutilEnquete;
 using System.Security.Claims;
 using System.Threading.Tasks;
-
+using OutilEnquete.ViewModels;
+using System.Security.AccessControl;
+using Microsoft.AspNetCore.Session
 
 namespace OutilEnquete
 {
@@ -35,6 +37,11 @@ namespace OutilEnquete
         public static ApplicationSignInManager Create(IdentityFactoryOptions<ApplicationSignInManager> options, IOwinContext context)
         {
             return new ApplicationSignInManager(context.GetUserManager<ApplicationUserManager>(), context.Authentication);
+        }
+
+        internal Task SignInAsync(ApplicationUser user, bool isPersistent, bool rememberBrowser)
+        {
+            throw new NotImplementedException();
         }
     }
  }

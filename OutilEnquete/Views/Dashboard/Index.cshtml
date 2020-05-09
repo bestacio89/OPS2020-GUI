@@ -1,12 +1,12 @@
 ﻿@{
     ViewBag.Title = "Dashboard";
-    var surveys = (IEnumerable<OutilEnquete.Models.Survey>) ViewBag.Surveys;
-    var responses = (IEnumerable<OutilEnquete.Models.Response>) ViewBag.Responses;
+    var surveys = (IEnumerable<OutilEnquete.ViewModels.QuestionnaireViewModel>) ViewBag.Questionnaire;
+    var Reponses = (IEnumerable<OutilEnquete.ViewModels.Reponse>) ViewBag.Reponses;
 }
 
 @section scripts
 {
-    @Scripts.Render("~/bundles/models")
+    
 
     <script type="text/javascript">
         $(function () {
@@ -22,7 +22,7 @@
                 placement: 'top'
             });
 
-            ko.applyBindings(new ResponseListModel(), $('#response-list')[0]);
+            ko.applyBindings(new ReponseListModel(), $('#Reponse-list')[0]);
         })
     </script>
 }
@@ -46,19 +46,19 @@
                         @if (survey.IsActive)
                         {
                             <span class="label label-success">A</span>
-                            <a href="@Url.Action("Create", "Responses", new { surveyId = survey.Id })">@survey.Name</a>
+                            <a href="@Url.Action("Create", "Reponses", new { IdQuestionnaire = survey.Id })">@survey.TitreQuestionnaire</a>
                         }
                         else
                         {
                             <span class="label label-important">X</span>
-                            <span class="muted">@survey.Name</span>
+                            <span class="muted">@survey.TitreQuestionnaire</span>
                         }
                     </h4>
                 </div>
                 <div class="span3 text-right">
                     @if (survey.IsActive)
                     {
-                        <a class="btn" href="@Url.Action("Create", "Responses", new { surveyId = survey.Id })">
+                        <a class="btn" href="@Url.Action("Create", "Reponses", new { IdQuestionnaire = survey.Id })">
                             Start Survey <i class="icon-arrow-right"></i>
                         </a>
                     }
@@ -82,7 +82,7 @@
                 </div>
                 <div class="span4 text-right">
                     <span class="@(survey.IsActive ? "" : "muted")">
-                        Your Latest Response: 
+                        Your Latest Reponse: 
                         @(survey.Responses.Select(x => x.CreatedOn.ToString("d")).FirstOrDefault() ?? "Never")
                     </span>
                 </div>
@@ -92,7 +92,7 @@
         }
     </div>
     <div id="history" class="tab-pane">
-        <table id="response-list" class="table table-striped">
+        <table id="Reponse-list" class="table table-striped">
             <thead>
                 <tr>
                     <th class="span1">Date</th>
@@ -102,22 +102,22 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var response in responses)
+                @foreach (var reponse in Reponses)
                 {
                     <tr>
-                        <td><span class="muted">@response.CreatedOn.ToString("d")</span></td>
+                        <td><span class="muted">@reponse.CreatedOn.ToString("d")</span></td>
                         <td>
-                            @Html.ActionLink(response.Survey.Name, "Details", "Responses", 
-                                             new {surveyId = response.SurveyId, id = response.Id}, 
+                            @Html.ActionLink(reponse.Questionnaire2.TitreQuestionnaire, "Details", "Reponses", 
+                                             new {IdQuestionnaire = reponse.IdQuestionnaire, id = reponse.Id}, 
                                              null)
                         </td>
                         <td>
-                            @response.GetAnswerCount()/@response.GetQuestionCount() - 
-                            @response.CalculateScore().ToString("P1")
+                            @reponse.GetQuestionCount() - 
+                        
                         </td>
                         <td>
                             @Html.ActionLink("Delete", "Delete",
-                                             new { Controller = "Responses", surveyId = response.SurveyId, id = response.Id },
+                                             new { Controller = "Reponses", IdQuestionnaire = reponse.IdQuestionnaire, id = reponse.Id },
                                              new { @class = "text-error", data_bind = "click: destroy" })
                         </td>
                     </tr>

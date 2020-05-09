@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using OPS.DAL;
 using OutilEnquete.Models;
+using OutilEnquete.ViewModels;
+using Newtonsoft.Json;
 
 namespace OutilEnquete.Controllers
 {
@@ -27,7 +29,7 @@ namespace OutilEnquete.Controllers
                                .Include("Questionnaire")
                                .Include("Reponse")
                                .Include("Reponse.Question")
-                               .Where(x => x.SurveyId == surveyId)
+                               .Where(x => x.Questionnaire2.IdQuestionnaire == surveyId)
                                .Where(x => x.CreatedBy == User.Identity.Name)
                                .OrderByDescending(x => x.CreatedOn)
                                .ThenByDescending(x => x.Id)
@@ -39,11 +41,11 @@ namespace OutilEnquete.Controllers
         [HttpGet]
         public ActionResult Details(int surveyId, int id)
         {
-            var response = _db.Responses
+            var response = _db.Reponses
                               .Include("Questionnaire")
                               .Include("Reponses")
                               .Include("Reponses.Question")
-                              .Where(x => x.SurveyId == surveyId)
+                              .Where(x => x.Questionnaire2.IdQuestionnaire == surveyId)
                               .Where(x => x.CreatedBy == User.Identity.Name)
                               .Single(x => x.Id == id);
 
@@ -55,11 +57,11 @@ namespace OutilEnquete.Controllers
         public ActionResult Create(int surveyId)
         {
             var survey = _db.Questionnaires
-                            .Where(s => s.Id == surveyId)
+                            .Where(s => s.IdQuestionnaire == surveyId)
                             .Select(s => new
                                 {
                                     Survey = s,
-                                    Questions = s.Questions
+                                    Questions = s.DataJson
                                                  .Where(q => q.IsActive)
                                                  .OrderBy(q => q.Priority)
                                 })
@@ -77,9 +79,9 @@ namespace OutilEnquete.Controllers
         [HttpPost]
         public ActionResult Create(int IdQuestionnaire, string action, Answer model)
         {
-            model.Answers = model.Answers.Where(a => !String.IsNullOrEmpty(a.Value)).ToList();
-            model.SurveyId = IdQuestionnaire;
-            model.CreatedBy = User.Identity.Name;
+            model.Response = model.Response.Where(a => !String.IsNullOrEmpty(a.Value)).ToList();
+            model.Id = IdQuestionnaire;
+            model.C = User.Identity.Name;
             model.CreatedOn = DateTime.Now;
             _db.Responses.Add(model);
             _db.SaveChanges();

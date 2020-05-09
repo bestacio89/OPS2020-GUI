@@ -5,28 +5,52 @@ using System.Linq;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using OPS.BOL;
-namespace OutilEnquete.Models
+namespace OutilEnquete.ViewModels
 {
     [DataContract]
-    public class Question : Questionnaire
+    [JsonObject]
+    public class Question
     { 
-        public int QuestionID { get; set; }
-        public int IdQuesttionnaire { get; set; }
+       [JsonProperty(PropertyName =  "IdQuestion")]
+        public int IdQuestion { get; set; }
 
-        public string Title { get; set; }
-        
-        public string Type { get; set; }
+        [JsonProperty(PropertyName = "Libelle")]
+        public string Libelle { get; set; }
 
-        public string Contenu { get; set; }
+        [JsonProperty(PropertyName = "Typechamp")]
+        public string TypeChamp { get; set; }
 
-        public int Priorité { get; set; }
+        [JsonProperty(PropertyName = "TypeResponse")]
+        public string TypeReponse { get; set; }
 
-        public bool IsActive { get; set; }
+        [JsonProperty(PropertyName = "EstaReponseMultiple")]
+        public string EstAReponseMultiple { get; set; }
+
+        [JsonProperty(PropertyName = "EstRequis")]
+        public string EstRequis { get; set; }
+
+        [JsonProperty(PropertyName = "EstModifiable")]
+        public bool EstModifiable { get; set; }
+
+        [JsonProperty(PropertyName = "EstExtensible")]
+        public bool EstExtensible { get; set; }
+
+        [JsonProperty(PropertyName = "Graphique")]
+        public bool Graphique { get; set; }
+
+        [JsonProperty(PropertyName = "GraphiqueModifiable")]
+        public bool GraphiqueModifiable { get; set; }
+
+        [JsonProperty(PropertyName = "TypeGraphique")]
+        public string TypeGraphique { get; set; }
+
+        [JsonProperty(PropertyName = "ValeursPossible")]
+        public List<string> ValeursPossible { get; set; }
 
         public DateTime DateCreation { get; set; }
 
         public DateTime DataModif { get; set; }
 
-        public List<Answer> Answers { get; set; }
+        public List<Reponse> Reponses { get; set; }
     }
 }
